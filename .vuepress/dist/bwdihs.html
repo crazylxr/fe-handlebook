@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>二叉树 | 前端桃园手册</title>
+    <meta name="description" content="让前端变得更简单">
+    <meta name="generator" content="VuePress 1.4.0">
+    
+    
+    <link rel="preload" href="/assets/css/0.styles.b1cbcfde.css" as="style"><link rel="preload" href="/assets/js/app.4b1516c6.js" as="script"><link rel="preload" href="/assets/js/2.4455a399.js" as="script"><link rel="preload" href="/assets/js/45.d6fae1b5.js" as="script"><link rel="prefetch" href="/assets/js/10.342c20f7.js"><link rel="prefetch" href="/assets/js/11.2684930f.js"><link rel="prefetch" href="/assets/js/12.b06cc777.js"><link rel="prefetch" href="/assets/js/13.22cf5677.js"><link rel="prefetch" href="/assets/js/14.d8c082b5.js"><link rel="prefetch" href="/assets/js/15.298c3c45.js"><link rel="prefetch" href="/assets/js/16.5345eec5.js"><link rel="prefetch" href="/assets/js/17.87f50e28.js"><link rel="prefetch" href="/assets/js/18.218e8def.js"><link rel="prefetch" href="/assets/js/19.6111b019.js"><link rel="prefetch" href="/assets/js/20.42203713.js"><link rel="prefetch" href="/assets/js/21.9ea8e678.js"><link rel="prefetch" href="/assets/js/22.9e6b5696.js"><link rel="prefetch" href="/assets/js/23.ce5a1dcf.js"><link rel="prefetch" href="/assets/js/24.7728094a.js"><link rel="prefetch" href="/assets/js/25.9c5b34d0.js"><link rel="prefetch" href="/assets/js/26.cc457d7a.js"><link rel="prefetch" href="/assets/js/27.a1f5e3cd.js"><link rel="prefetch" href="/assets/js/28.256d4fff.js"><link rel="prefetch" href="/assets/js/29.2f6f3c59.js"><link rel="prefetch" href="/assets/js/3.ee8f4971.js"><link rel="prefetch" href="/assets/js/30.a426a340.js"><link rel="prefetch" href="/assets/js/31.a24d6c4d.js"><link rel="prefetch" href="/assets/js/32.e9c40861.js"><link rel="prefetch" href="/assets/js/33.56b6d2d0.js"><link rel="prefetch" href="/assets/js/34.50b4ffde.js"><link rel="prefetch" href="/assets/js/35.1f83ac9c.js"><link rel="prefetch" href="/assets/js/36.19144546.js"><link rel="prefetch" href="/assets/js/37.aefe1b94.js"><link rel="prefetch" href="/assets/js/38.e3b14993.js"><link rel="prefetch" href="/assets/js/39.43b42f39.js"><link rel="prefetch" href="/assets/js/4.42eb01a9.js"><link rel="prefetch" href="/assets/js/40.ba59c2e6.js"><link rel="prefetch" href="/assets/js/41.c6dcbe49.js"><link rel="prefetch" href="/assets/js/42.a178911b.js"><link rel="prefetch" href="/assets/js/43.031edee8.js"><link rel="prefetch" href="/assets/js/44.3eb861f0.js"><link rel="prefetch" href="/assets/js/46.a7cdfef9.js"><link rel="prefetch" href="/assets/js/47.a21bd9f6.js"><link rel="prefetch" href="/assets/js/48.8e4b2a78.js"><link rel="prefetch" href="/assets/js/5.f013b3c6.js"><link rel="prefetch" href="/assets/js/6.e2b639a4.js"><link rel="prefetch" href="/assets/js/7.36ef9f23.js"><link rel="prefetch" href="/assets/js/8.976983c0.js"><link rel="prefetch" href="/assets/js/9.9032491a.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.b1cbcfde.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">前端桃园手册</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><!---->  <ul class="sidebar-links"><li><a href="/dt6ox9.html" class="sidebar-link">介绍</a></li><li><a href="/uc5l5a.html" class="sidebar-link">HTML</a></li><li><section class="sidebar-group depth-0"><a href="/hu5fdh.html" class="sidebar-heading clickable"><span>CSS</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/na22ae.html" class="sidebar-link">BFC</a></li></ul></section></li><li><section class="sidebar-group depth-0"><a href="/mrohx3.html" class="sidebar-heading clickable"><span>JavaScript</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/ny4sy0.html" class="sidebar-link">JavaScript是如何工作的</a></li><li><a href="/wndkvu.html" class="sidebar-link">原型、构造函数、实例</a></li><li><a href="/txwio3.html" class="sidebar-link">词法环境、执行上下文、作用域、闭包</a></li><li><a href="/npo9qk.html" class="sidebar-link">ES6</a></li></ul></section></li><li><section class="sidebar-group depth-0"><a href="/bpv9rg.html" class="sidebar-heading clickable"><span>框架</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/ikypbn.html" class="sidebar-link">Vue</a></li><li><a href="/gxcr94.html" class="sidebar-link">React</a></li></ul></section></li><li><a href="/ptoast.html" class="sidebar-link">自动化测试</a></li><li><section class="sidebar-group depth-0"><a href="/tz88n4.html" class="sidebar-heading clickable"><span>计算机通识</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/aqhnhg.html" class="sidebar-link">设计模式</a></li><li><a href="/dol4m6.html" class="sidebar-link">操作系统</a></li><li><a href="/lakekx.html" class="sidebar-link">网络</a></li><li><a href="/wrrb0y.html" class="sidebar-link">Git</a></li></ul></section></li><li><section class="sidebar-group depth-0"><a href="/wm8tcg.html" class="sidebar-heading clickable open"><span>算法和数据结构</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/bwdihs.html" class="active sidebar-link">二叉树</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/bwdihs.html#存储方式" class="sidebar-link">存储方式</a></li><li class="sidebar-sub-header"><a href="/bwdihs.html#二叉树的遍历" class="sidebar-link">二叉树的遍历</a></li></ul></li></ul></section></li><li><section class="sidebar-group depth-0"><a href="/tpemfk.html" class="sidebar-heading clickable"><span>工程化</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/tfi01u.html" class="sidebar-link">Babel</a></li><li><a href="/saraly.html" class="sidebar-link">Webpack</a></li><li><a href="/xbrnpe.html" class="sidebar-link">脚手架</a></li><li><a href="/bcc99c.html" class="sidebar-link">部署</a></li><li><a href="/lr4cin.html" class="sidebar-link">埋点</a></li><li><a href="/ytk5vc.html" class="sidebar-link">监控</a></li></ul></section></li><li><a href="/wk3rnk.html" class="sidebar-link">Node</a></li><li><a href="/hg0gpt.html" class="sidebar-link">安全</a></li><li><a href="/isl5no.html" class="sidebar-link">性能优化</a></li><li><section class="sidebar-group depth-0"><a href="/stmpud.html" class="sidebar-heading clickable"><span>其他</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/fzu9u4.html" class="sidebar-link">Serverless</a></li><li><a href="/vt7k5r.html" class="sidebar-link">微前端</a></li><li><a href="/qsxi2z.html" class="sidebar-link">浏览器</a></li><li><a href="/nagu8e.html" class="sidebar-link">函数式</a></li><li><a href="/yqro45.html" class="sidebar-link">面试</a></li><li><a href="/wuodrm.html" class="sidebar-link">社区或者博客</a></li><li><a href="/fwzwt9.html" class="sidebar-link">编写可维护的代码</a></li><li><a href="/vkghcf.html" class="sidebar-link">Rxjs</a></li><li><a href="/bg9fcf.html" class="sidebar-link">Typescript</a></li></ul></section></li><li><section class="sidebar-group depth-0"><a href="/hh3dec.html" class="sidebar-heading clickable"><span>工具</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/lmt8ty.html" class="sidebar-link">VSCode</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="二叉树"><a href="#二叉树" class="header-anchor">#</a> 二叉树</h1> <div data-lake-element="root" class="lake-content-editor-core lake-engine lake-typography-traditional"><ul data-lake-id="f473bd67e4fc46af75624b34e7994fa2" lake-indent="0" style="list-style-type:disc;margin:0px;padding-left:23px;font-size:14px;color:rgb(38, 38, 38);line-height:1.74;letter-spacing:0.05em;outline-style:none;overflow-wrap:break-word;"><li data-lake-id="a1a9a31d68963d2d764f9abdde733946">满二叉树：除了叶子节点外，每个节点都有左右两个子节点</li><li data-lake-id="b8df3b96e1b89a251db983796be60be4">完全二叉树：最后一层的叶子节点全都靠左排列，并且其他层的节点都要达到最大。为什么要规定一个完全二叉树呢，因为用数组来存储的时候，是不会空的，</li></ul> <h2 id="存储方式"><a href="#存储方式" class="header-anchor">#</a> 存储方式</h2> <ul data-lake-id="1b92ca6a5897d4808b00f99f54d1b1d3" lake-indent="0" style="list-style-type:disc;margin:0px;padding-left:23px;font-size:14px;color:rgb(38, 38, 38);line-height:1.74;letter-spacing:0.05em;outline-style:none;overflow-wrap:break-word;"><li data-lake-id="e1d43fd418057c71e95cc7dc95dce070">链式存储</li><li data-lake-id="a38b13b1998ac8fe4e09bd1b12b6b450">顺序存储。如果节点 X 存储在下标为 i 的位置，那么他的左节点就是 <strong>2 * i</strong>，右节点就是 <strong>2*i+1</strong>，反过来，下标为 i/2 的位置就是父节点。</li></ul><p data-lake-id="d1878a80c1dabae2faba1f97668f68bd" style="font-size:14px;color:rgb(38, 38, 38);line-height:1.74;letter-spacing:0.05em;outline-style:none;overflow-wrap:break-word;margin:0px;">顺序存储比较适合完全二叉树，其他类型 的存储会浪费空间。</p> <h2 id="二叉树的遍历"><a href="#二叉树的遍历" class="header-anchor">#</a> 二叉树的遍历</h2> <h3 id="前序遍历"><a href="#前序遍历" class="header-anchor">#</a> 前序遍历</h3> <h4 id="递归"><a href="#递归" class="header-anchor">#</a> 递归</h4> <p data-lake-id="e484125e79b3c7bfb728a36f668fa42f" style="font-size:14px;color:rgb(38, 38, 38);line-height:1.74;letter-spacing:0.05em;outline-style:none;overflow-wrap:break-word;margin:0px;"><br></p><div data-card-type="block" data-lake-card="codeblock" id="mUZyS"><div class="lake-codeblock-content" style="border:1px solid rgb(232, 232, 232);max-width:750px;color:rgb(89, 89, 89);margin:0px;padding:0px;background:rgb(249, 249, 249);"><div style="color:rgb(89, 89, 89);margin:0px;padding:16px;background:none 0% 0% / auto repeat scroll padding-box border-box rgba(0, 0, 0, 0);"><div class="language-undefined extra-class"><pre class="language-text"><code>var preorderTraversal = function(root) {
+  return root ? [root.val, ...preorderTraversal(root.left), ...preorderTraversal(root.right)] : []
+}; 
+</code></pre></div></div></div></div> <h4 id="非递归"><a href="#非递归" class="header-anchor">#</a> 非递归</h4> <div data-card-type="block" data-lake-card="codeblock" id="wgstc"><div class="lake-codeblock-content" style="border:1px solid rgb(232, 232, 232);max-width:750px;color:rgb(89, 89, 89);margin:0px;padding:0px;background:rgb(249, 249, 249);"><div style="color:rgb(89, 89, 89);margin:0px;padding:16px;background:none 0% 0% / auto repeat scroll padding-box border-box rgba(0, 0, 0, 0);"><div class="language-undefined extra-class"><pre class="language-text"><code>// 方法一
+const preorderTraversal = function(root) {
+   const stack = [], res = []
+   root &amp;&amp; stack.push(root)
+   // 使用一个栈stack，每次首先输出栈顶元素，也就是当前二叉树根节点，之后依次输出二叉树的左孩子和右孩子
+   while(stack.length &gt; 0) {
+       let cur = stack.pop()
+       res.push(cur.val)
+       // 先入栈的元素后输出，所以先入栈当前节点右孩子，再入栈左孩子
+       cur.right &amp;&amp; stack.push(cur.right)
+       cur.left &amp;&amp; stack.push(cur.left)
+   }
+   return res
+};
+
+// 方法二
+var preorderTraversal = function(root) {
+  const result = []
+  const stack = []
+  
+  while(root) {
+      result.push(root.val)
+      root.right &amp;&amp; stack.push(root.right)
+      root.left &amp;&amp; stack.push(root.left)
+      root = stack.pop()
+  }
+   
+   return result
+}; 
+</code></pre></div></div></div></div><p data-lake-id="76645542b5890be68e0d11c70318c95e" style="font-size:14px;color:rgb(38, 38, 38);line-height:1.74;letter-spacing:0.05em;outline-style:none;overflow-wrap:break-word;margin:0px;"><br></p> <h3 id="中序遍历"><a href="#中序遍历" class="header-anchor">#</a> 中序遍历</h3> <h4 id="递归-2"><a href="#递归-2" class="header-anchor">#</a> 递归</h4> <p data-lake-id="106defa0fdedf3c2fc250d567c2988ac" style="font-size:14px;color:rgb(38, 38, 38);line-height:1.74;letter-spacing:0.05em;outline-style:none;overflow-wrap:break-word;margin:0px;"><br></p><div data-card-type="block" data-lake-card="codeblock" id="EVEGp"><div class="lake-codeblock-content" style="border:1px solid rgb(232, 232, 232);max-width:750px;color:rgb(89, 89, 89);margin:0px;padding:0px;background:rgb(249, 249, 249);"><div style="color:rgb(89, 89, 89);margin:0px;padding:16px;background:none 0% 0% / auto repeat scroll padding-box border-box rgba(0, 0, 0, 0);"><div class="language-undefined extra-class"><pre class="language-text"><code>var inorderTraversal = function(root) {
+  return root ? [...inorderTraversal(root.left), root.val, ...inorderTraversal(root.right)] : []
+}; 
+</code></pre></div></div></div></div><p data-lake-id="b8038668ab8ea01a1671aea660114050" style="font-size:14px;color:rgb(38, 38, 38);line-height:1.74;letter-spacing:0.05em;outline-style:none;overflow-wrap:break-word;margin:0px;"><br></p> <h4 id="迭代"><a href="#迭代" class="header-anchor">#</a> 迭代</h4> <p data-lake-id="31a564f553e5c98bcceadbbc911172bc" style="font-size:14px;color:rgb(38, 38, 38);line-height:1.74;letter-spacing:0.05em;outline-style:none;overflow-wrap:break-word;margin:0px;"><br></p><div data-card-type="block" data-lake-card="codeblock" id="rhCdg"><div class="lake-codeblock-content" style="border:1px solid rgb(232, 232, 232);max-width:750px;color:rgb(89, 89, 89);margin:0px;padding:0px;background:rgb(249, 249, 249);"><div style="color:rgb(89, 89, 89);margin:0px;padding:16px;background:none 0% 0% / auto repeat scroll padding-box border-box rgba(0, 0, 0, 0);"><div class="language-undefined extra-class"><pre class="language-text"><code>var inorderTraversal = function(root) {
+       const result = []
+   const stack = []
+
+   while(root || stack.length &gt; 0) {
+       while(root) {
+           stack.push(root)
+           root = root.left
+       }
+
+       root = stack.pop()
+       result.push(root.val)
+       root = root.right
+   }
+   return result
+}; 
+</code></pre></div></div></div></div><p data-lake-id="d57df211d96e423e6f27ac1136860d16" style="font-size:14px;color:rgb(38, 38, 38);line-height:1.74;letter-spacing:0.05em;outline-style:none;overflow-wrap:break-word;margin:0px;"><br></p><ul data-lake-id="3f613e9537a0fe0122fe5e539877a15a" lake-indent="0" style="list-style-type:disc;margin:0px;padding-left:23px;font-size:14px;color:rgb(38, 38, 38);line-height:1.74;letter-spacing:0.05em;outline-style:none;overflow-wrap:break-word;"><li data-lake-id="83e301fb2edafd6e2f5006e5a24da7b0">后序遍历</li></ul><p data-lake-id="d01ec2e894d401ff7fe20915ea56a011" style="font-size:14px;color:rgb(38, 38, 38);line-height:1.74;letter-spacing:0.05em;outline-style:none;overflow-wrap:break-word;margin:0px;">这三种遍历的时间复杂度都是 O(n)</p></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/wrrb0y.html" class="prev">
+        Git
+      </a></span> <span class="next"><a href="/tfi01u.html">
+        Babel
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.4b1516c6.js" defer></script><script src="/assets/js/2.4455a399.js" defer></script><script src="/assets/js/45.d6fae1b5.js" defer></script>
+  </body>
+</html>
